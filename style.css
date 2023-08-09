@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{ 
+    display: flex;
+    
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+   
+}
+
+h3,#result{ 
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: 900;
+    color: #C45B8A;
+
+    font-size: 10vh;
+}
+
+#result{ 
+    color: transparent;
+    -webkit-text-stroke: 2px #9ECF4B;
+}
+
+#grid{
+   
+    width:69vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+img{
+    border: 2px solid black;
+    height: 30vh;
+    width: 14vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ 
+#nodisp{ 
+    display: none;
+}
+
+
+
+
+#noh3{ 
+    display: none;
+}
+
+
+#breakthrough{ 
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: 900;
+    display: flex;
+    font-size: 20vh;
+    color: #E3C3DA;
+}
+
+
+
+
+@media (max-width:600px){ 
+     body{ 
+        display: block;
+        padding: 100px 10px;
+        overflow: hidden;
+         
+     }
+    h3{ display: inline-block;
+        position: relative;
+        bottom: 10vh;
+        font-size: 2vh;
+       
+    }
+
+    #result{ 
+        
+        position: relative;
+        bottom: 10vh;
+        font-size: 2vh;
+    }
+
+    #grid{ 
+         
+        width: 90vw;
+    }
+
+    img{ 
+        height: 15vh;
+        width:15vw ;
+    }
+
+    #breakthrough{ 
+         
+        justify-content: center;
+         
+        font-size: 10vw;
+       
+    }
+
+}
